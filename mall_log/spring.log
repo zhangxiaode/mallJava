@@ -1,79 +1,14 @@
-2019-01-28 11:34:25.374  INFO 13388 --- [main] com.zxd.mall.MallApplication             : Starting MallApplication on DESKTOP-4SR8DSC with PID 13388 (D:\zxd\software\java\workspace\mallJava\target\classes started by zxd in D:\zxd\software\java\workspace\mallJava)
-2019-01-28 11:34:25.379  INFO 13388 --- [main] com.zxd.mall.MallApplication             : No active profile set, falling back to default profiles: default
-2019-01-28 11:34:27.250  WARN 13388 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zxd.mall.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 11:34:27.251  WARN 13388 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'wxUserMapper' and 'com.zxd.mall.mapper.WxUserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 11:34:27.252  WARN 13388 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zxd.mall.mapper]' package. Please check your configuration.
-2019-01-28 11:34:27.838  INFO 13388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-01-28 11:34:27.842  INFO 13388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-01-28 11:34:27.905  INFO 13388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
-2019-01-28 11:34:28.714  INFO 13388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d448a15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-28 11:34:30.154  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
-2019-01-28 11:34:30.265  INFO 13388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-01-28 11:34:30.266  INFO 13388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-01-28 11:34:30.282  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
-2019-01-28 11:34:30.282  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
-2019-01-28 11:34:30.283  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019-01-28 11:34:30.284  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019-01-28 11:34:31.458  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
-2019-01-28 11:34:31.724  INFO 13388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-01-28 11:34:31.725  INFO 13388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6191 ms
-2019-01-28 11:34:34.187  INFO 13388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-28 11:34:35.423  INFO 13388 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2019-01-28 11:34:35.844  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
-2019-01-28 11:34:35.956  INFO 13388 --- [main] com.zxd.mall.MallApplication             : Started MallApplication in 12.534 seconds (JVM running for 26.197)
-2019-01-28 14:39:44.909  INFO 10588 --- [main] com.zxd.mall.MallApplication             : Starting MallApplication on DESKTOP-4SR8DSC with PID 10588 (D:\zxd\software\java\workspace\mallJava\target\classes started by zxd in D:\zxd\software\java\workspace\mallJava)
-2019-01-28 14:39:44.916  INFO 10588 --- [main] com.zxd.mall.MallApplication             : No active profile set, falling back to default profiles: default
-2019-01-28 14:39:46.013  WARN 10588 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zxd.mall.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 14:39:46.014  WARN 10588 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'wxUserMapper' and 'com.zxd.mall.mapper.WxUserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 14:39:46.015  WARN 10588 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zxd.mall.mapper]' package. Please check your configuration.
-2019-01-28 14:39:46.286  INFO 10588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-01-28 14:39:46.290  INFO 10588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-01-28 14:39:46.339  INFO 10588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
-2019-01-28 14:39:46.954  INFO 10588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abf3a040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-28 14:39:47.656  INFO 10588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
-2019-01-28 14:39:47.696  INFO 10588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-01-28 14:39:47.696  INFO 10588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-01-28 14:39:47.713  INFO 10588 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
-2019-01-28 14:39:47.714  INFO 10588 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
-2019-01-28 14:39:47.714  INFO 10588 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019-01-28 14:39:47.714  INFO 10588 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019-01-28 14:39:48.776  INFO 10588 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
-2019-01-28 14:39:48.975  INFO 10588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-01-28 14:39:48.975  INFO 10588 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3977 ms
-2019-01-28 14:39:50.222  INFO 10588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-28 14:39:50.773  INFO 10588 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2019-01-28 14:39:50.943  INFO 10588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
-2019-01-28 14:39:50.948  INFO 10588 --- [main] com.zxd.mall.MallApplication             : Started MallApplication in 6.678 seconds (JVM running for 11.685)
-2019-01-28 14:46:03.314  INFO 10588 --- [http-nio-9090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-01-28 14:46:03.315  INFO 10588 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-01-28 14:46:03.332  INFO 10588 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
-2019-01-28 14:46:05.152  INFO 10588 --- [http-nio-9090-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-28 14:46:05.492  INFO 10588 --- [http-nio-9090-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-28 14:47:13.374  INFO 11196 --- [main] com.zxd.mall.MallApplication             : Starting MallApplication on DESKTOP-4SR8DSC with PID 11196 (D:\zxd\software\java\workspace\mallJava\target\classes started by zxd in D:\zxd\software\java\workspace\mallJava)
-2019-01-28 14:47:13.381  INFO 11196 --- [main] com.zxd.mall.MallApplication             : No active profile set, falling back to default profiles: default
-2019-01-28 14:47:14.790  WARN 11196 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zxd.mall.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 14:47:14.791  WARN 11196 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'wxUserMapper' and 'com.zxd.mall.mapper.WxUserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-28 14:47:14.792  WARN 11196 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zxd.mall.mapper]' package. Please check your configuration.
-2019-01-28 14:47:15.056  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-01-28 14:47:15.060  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-01-28 14:47:15.109  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
-2019-01-28 14:47:15.681  INFO 11196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7f4883e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-28 14:47:16.558  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
-2019-01-28 14:47:16.599  INFO 11196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-01-28 14:47:16.599  INFO 11196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-01-28 14:47:16.613  INFO 11196 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
-2019-01-28 14:47:16.613  INFO 11196 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
-2019-01-28 14:47:16.613  INFO 11196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019-01-28 14:47:16.614  INFO 11196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019-01-28 14:47:17.674  INFO 11196 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
-2019-01-28 14:47:17.855  INFO 11196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-01-28 14:47:17.855  INFO 11196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4382 ms
-2019-01-28 14:47:19.050  INFO 11196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-28 14:47:19.704  INFO 11196 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2019-01-28 14:47:19.883  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
-2019-01-28 14:47:19.895  INFO 11196 --- [main] com.zxd.mall.MallApplication             : Started MallApplication in 7.307 seconds (JVM running for 12.743)
-2019-01-28 14:47:38.972  INFO 11196 --- [http-nio-9090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-01-28 14:47:38.973  INFO 11196 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-01-28 14:47:38.992  INFO 11196 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
-2019-01-28 14:47:40.486  INFO 11196 --- [http-nio-9090-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-28 14:47:40.692  INFO 11196 --- [http-nio-9090-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-29 10:38:34.773  INFO 10856 --- [main] com.zxd.mall.MallApplicationTests        : Starting MallApplicationTests on DESKTOP-4SR8DSC with PID 10856 (started by zxd in D:\zxd\software\java\workspace\mallJava)
+2019-01-29 10:38:34.786  INFO 10856 --- [main] com.zxd.mall.MallApplicationTests        : No active profile set, falling back to default profiles: default
+2019-01-29 10:38:36.180  WARN 10856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zxd.mall.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2019-01-29 10:38:36.183  WARN 10856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'wxUserMapper' and 'com.zxd.mall.mapper.WxUserMapper' mapperInterface. Bean already defined with the same name!
+2019-01-29 10:38:36.185  WARN 10856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zxd.mall.mapper]' package. Please check your configuration.
+2019-01-29 10:38:36.558  INFO 10856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-29 10:38:36.563  INFO 10856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 10:38:36.633  INFO 10856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-01-29 10:38:37.432  INFO 10856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ec530c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-29 10:38:40.153  INFO 10856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-29 10:38:41.333  INFO 10856 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-01-29 10:38:41.521  INFO 10856 --- [main] com.zxd.mall.MallApplicationTests        : Started MallApplicationTests in 7.396 seconds (JVM running for 8.832)
+2019-01-29 10:38:42.210  INFO 10856 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-01-29 10:38:42.212  INFO 10856 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
